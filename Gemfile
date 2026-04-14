@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.7.6'
+ruby file: '.ruby-version'
 
-gem "mailcatcher", "~> 0.8.2"
+gem 'mailcatcher'
